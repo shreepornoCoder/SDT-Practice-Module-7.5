@@ -1,0 +1,61 @@
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.search{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid red;
+}
+.search-btn{
+    width: 100px;
+    border: 1px solid red;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 4px 8px gray;
+}
+#meal-container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.meal-img{
+    width: 230px;
+}
+.meal{
+    padding-top: 15px;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 0px 4px 8px black;
+    border-radius: 10px;
+}
+.details{
+    margin-left: 500px;
+    padding-bottom: 5px;
+}
+.details-meal-img{
+    width: 370px;
+    height: 270px;
+}
+.ingrediants{
+    margin-left: 490px;
+}
+.details-btn{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+.not-found{
+    text-align: center;
+    color: rgb(251, 75, 75);
+}
